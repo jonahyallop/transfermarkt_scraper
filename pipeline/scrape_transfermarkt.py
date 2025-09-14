@@ -5,12 +5,13 @@
 from tqdm import tqdm
 import yaml
 import sys
+import os
 import pandas as pd
 from time import sleep
 from random import randint
 from datetime import datetime
 
-sys.path.insert(1, "/Users/jonahyallop/Documents/04. Football Data/01. Colchester United")
+sys.path.insert(1, os.getcwd())
 
 import functions.transfermarkt_scraping_functions as tfmrkt
 

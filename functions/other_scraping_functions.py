@@ -1,8 +1,4 @@
 import pandas as pd
-import sys
-
-sys.path.insert(1, "/Users/jonahyallop/Documents/Colchester United")
-
 import utils.scraping_utils as utils
 
 

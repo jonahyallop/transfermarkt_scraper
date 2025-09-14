@@ -3,12 +3,13 @@
 ###################
 
 import sys
+import os
 import pandas as pd
 from time import sleep
 from random import randint
 from tqdm import tqdm
 
-sys.path.insert(1, "/Users/jonahyallop/Documents/Colchester United")
+sys.path.insert(1, os.getcwd())
 
 import functions.fbref_scraping_functions as fbref
 

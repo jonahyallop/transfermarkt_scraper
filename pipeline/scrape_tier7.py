@@ -5,13 +5,14 @@
 import yaml
 import sys
 import re
+import os
 import pandas as pd
 from tqdm import tqdm
 from time import sleep
 from random import randint
 from datetime import datetime
 
-sys.path.insert(1, "/Users/jonahyallop/Documents/Colchester United")
+sys.path.insert(1, os.getcwd())
 
 import functions.other_scraping_functions as scrape
 
