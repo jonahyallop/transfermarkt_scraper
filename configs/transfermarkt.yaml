@@ -1,0 +1,352 @@
+
+# Number of pages of free agents
+free_agent_pages: 5
+
+# Season to scrape: input 2025 for 25/26 season
+season: 2025
+
+# Clubs and url numbers
+club_dict:
+  # premier_league_2:
+  #   manchester-city-u23: 9265
+  #   fc-arsenal-u23: 9249
+  #   fc-liverpool-u23: 9252
+  #   fc-chelsea-u23: 9250
+  #   tottenham-hotspur-u23: 9254
+  #   wolverhampton-wanderers-u23: 24226
+  #   crystal-palace-u23: 6945
+  #   west-ham-united-u23: 9267
+  #   aston-villa-u23: 12124
+  #   fc-fulham-u23: 9262
+  #   manchester-united-u23: 9251
+  #   brighton-amp-hove-albion-u23: 39336
+  #   nottingham-forest-u23: 38588
+  #   leicester-city-u23: 39341
+  #   fc-everton-u23: 9261
+  #   newcastle-united-u23: 9253
+  #   stoke-city-u23: 24219
+  #   blackburn-rovers-u23: 9258
+  #   norwich-city-u23: 33614
+  #   fc-middlesbrough-u23: 9256
+  #   fc-southampton-b: 36546
+  #   leeds-united-u23: 20116
+  #   fc-reading-u23: 36123
+  #   afc-sunderland-u23: 9264
+  #   west-bromwich-albion-u23: 29990
+  #   derby-county-u23: 39337
+
+  # u18_premier_league:
+  #   fc-arsenal-u18: 5679
+  #   fc-liverpool-u18: 6922
+  #   fc-chelsea-u18: 6918
+  #   aston-villa-u18: 6933
+  #   fc-fulham-u18: 6942
+  #   fc-everton-u18: 6920
+  #   afc-sunderland-u18: 12797
+  #   wolverhampton-wanderers-u18: 12801
+  #   derby-county-u18: 10002
+  #   newcastle-united-u18: 6943
+  #   stoke-city-u18: 14494
+  #   leeds-united-u18: 10161
+  #   manchester-united-u18: 5242
+  #   blackburn-rovers-u18: 6949
+  #   fc-middlesbrough-u18: 6924
+  #   manchester-city-u18: 6930
+  #   nottingham-forest-u18: 12799
+  #   brighton-amp-hove-albion-u18: 9606
+  #   west-ham-united-u18: 9955
+  #   leicester-city-u18: 14389
+  #   fc-reading-u18: 11994
+  #   crystal-palace-u18: 6950
+  #   tottenham-hotspur-u18: 6928
+  #   fc-southampton-u18: 6893
+  #   west-bromwich-albion-u18: 6951
+  #   norwich-city-u18: 6898
+
+  # championship:
+  #   fc-southampton: 180
+  #   leicester-city: 1003
+  #   ipswich-town: 677
+  #   sheffield-united: 350
+  #   coventry-city: 990
+  #   norwich-city: 1123
+  #   birmingham-city: 337
+  #   fc-middlesbrough: 641
+  #   bristol-city: 698
+  #   fc-watford: 1010
+  #   west-bromwich-albion: 984
+  #   hull-city: 3008
+  #   stoke-city: 512
+  #   swansea-city: 2288
+  #   queens-park-rangers: 1039
+  #   blackburn-rovers: 164
+  #   fc-millwall: 1028
+  #   preston-north-end: 466
+  #   derby-county: 22
+  #   oxford-united: 988
+  #   fc-portsmouth: 1020
+  #   afc-wrexham: 1112
+  #   charlton-athletic: 358
+  #   sheffield-wednesday: 1035
+
+  # league-one:
+  #   luton-town: 1031
+  #   cardiff-city: 603
+  #   huddersfield-town: 1110
+  #   bolton-wanderers: 355
+  #   plymouth-argyle: 2262
+  #   leyton-orient: 1150
+  #   wycombe-wanderers: 2805
+  #   wigan-athletic: 1071
+  #   fc-blackpool: 1181
+  #   stockport-county: 1098
+  #   fc-barnsley: 349
+  #   fc-reading: 1032
+  #   fc-port-vale: 1211
+  #   lincoln-city: 1198
+  #   peterborough-united: 1072
+  #   burton-albion: 2963
+  #   fc-stevenage: 3684
+  #   rotherham-united: 1194
+  #   doncaster-rovers: 2454
+  #   exeter-city: 6699
+  #   bradford-city: 1027
+  #   mansfield-town: 3820
+  #   northampton-town: 1302
+  #   afc-wimbledon: 3884
+
+  # league_two:
+  #   milton-keynes-dons: 991
+  #   bristol-rovers: 2455
+  #   crawley-town: 3537
+  #   notts-county: 1045
+  #   fc-chesterfield: 1219
+  #   fleetwood-town: 11177
+  #   crewe-alexandra: 1042
+  #   colchester-united: 1060
+  #   fc-gillingham: 2814
+  #   tranmere-rovers: 1074
+  #   cambridge-united: 986
+  #   grimsby-town: 1034
+  #   newport-county: 3716
+  #   shrewsbury-town: 3054
+  #   swindon-town: 352
+  #   salford-city: 34888
+  #   afc-barrow: 6168
+  #   fc-bromley: 8981
+  #   harrogate-town: 12020
+  #   fc-walsall: 899
+  #   accrington-stanley: 3688
+  #   cheltenham-town: 3371
+  #   fc-barnet: 2804
+  #   oldham-athletic: 1078
+
+  national_league:
+    carlise-united: 1220
+    fc-morecombe: 3697
+    brackley-town: 20877
+    truro-city-fc: 9165
+    fc-boreham-wood: 3867
+    scunthorpe-united: 2964
+    forest-green-rovers: 3455
+    sutton-united: 3052
+    fc-wealdstone: 4117
+    york-city: 1252
+    braintree-town: 6340
+    southend-united: 2793
+    afc-rochdale: 1088
+    fc-gateshead: 3456
+    eastleigh-fc: 10391
+    hartlepool-united: 2577
+    boston-united: 3489
+    solihull-moors: 12335
+    aldershot-town: 3717
+    fc-halifax-town: 1127
+    altrincham-fc: 2962
+    tamworth-fc: 3539
+    fc-woking: 2796
+    yeovil-town: 972
+
+  national_league_north:
+    afc-fylde: 22672
+    alfreton-town: 3721
+    afc-telford-united: 3694
+    bedford-town: 3682
+    fc-macclesfield: 85287
+    fc-merthyr-town: 3937
+    worksop-town: 3835
+    fc-darlington: 37486
+    kings-lynn-town: 38899
+    fc-chester: 31367
+    chorley-fc: 13286
+    curzon-ashton-fc: 13556
+    marine-fc: 23010
+    buxton-fc: 10895
+    fc-hereford: 46842
+    kidderminster-harriers: 1195
+    leamington-fc: 23226
+    oxford-city-fc: 22563
+    peterborough-sports: 68004
+    fc-radcliffe: 9643
+    scarborough-atheltic: 971
+    fc-south-shields: 34798
+    southport-fc: 9829
+    spennymoor-town: 45922
+
+  national_league_south:
+    weston-super-mare-afc: 3712
+    bath-cty: 1099
+    fc-dagenham-amp-redbridge: 3696
+    ebbsfleet-united: 2797
+    afc-totton: 20952
+    dover-athletic: 3936
+    horsham-fc: 20786
+    maidenhead-united: 7123
+    hampton-amp-richmond-borough: 8820
+    fc-farnborough: 4279
+    worthing-fc: 8123
+    chelmsford-city: 3698
+    chesham-united: 9153
+    chippenham-town: 21652
+    dorking-wanderers: 52299
+    eastbourne-borough: 3713
+    enfield-town: 8665
+    hemel-hempstead-town: 17980
+    afc-hornchurch: 3868
+    maidstone-united: 7047
+    fc-salisbury: 56852
+    slough-town: 11310
+    tonbridge-angels-fc: 14672
+    torquay-united: 1218
+
+  scottish_premiership:
+    celtic-glasgow: 371
+    glasgow-rangers: 124
+    heart-of-midlothian-fc: 43
+    aberdeen-fc: 370
+    hibernian-fc: 903
+    kilmarnock-fc: 2553
+    motherwell-fc: 987
+    dundee-fc: 511
+    st-mirren-fc: 465
+    dundee-united-fc: 1519
+    livingston-fc: 1241
+    falkirk-fc: 1191
+
+  scottish_championship:
+    st-johnstone-fc: 2578
+    ross-county-fc: 2759
+    raith-rovers-fc: 2795
+    partick-thistle-fc: 2760
+    ayr-united-fc: 1192
+    queens-park-fc: 3031
+    greenock-morton-fc: 3026
+    dunfermline-athletic-fc: 1270
+    airdrieonians-fc: 2802
+    arbroath-fc: 3021
+
+  scottish_league_one:
+    hamilton-academical-fc: 2999
+    inverness-caledonian-thistle-fc: 2451
+    cove-rangers-fc: 8933
+    alloa-athletic-fc: 3020
+    queen-of-the-south-fc: 3001
+    kelty-hearts-fc: 3804
+    montrose-fc: 3030
+    stenhousemuir-fc: 3012
+    peterhead-fc: 3032
+    east-fife-fc: 3024
+
+  scottish_league_two:
+    dumbarton-fc: 3023
+    elgin-city-fc: 3028
+    edinburgh-city-fc: 12886
+    the-spartans-fc: 17602
+    annan-athletic-fc: 3015
+    clyde-fc: 2575
+    forfar-athletic-fc: 3016
+    stirling-albion-fc: 3033
+    stranraer-fc: 3034
+    east-kilbride-fc: 28457
+
+  scottish_lowland_league:
+    celtic-glasgow-reserves: 9043
+    heart-of-midlothian-fc-reserves: 12577
+    east-stirlingshire-fc: 3000
+    albion-rovers-fc: 3014
+    berwick-rangers-fc: 2801
+    boness-united-fc: 24232
+    bonnyrigg-rose-athletic-fc: 20603
+    broxburn-athletic-fc: 16253
+    caledonian-braves-fc: 44914
+    civil-service-strollers-fc: 23303
+    clydebank-fc: 3457
+    cowdenbeath-fc: 3027
+    cumbernauld-colts-fc: 49189
+    gala-fairydean-rovers-fc: 11379
+    gretna-fc-2008: 24574
+    linlithgow-rose-fc: 5660
+    university-of-stirling-fc: 23692
+    tranent-juniors-fc: 26154
+
+  scottish_highland_league:
+    brora-rangers-fc: 3491
+    clachnacuddin-fc: 3459
+    banks-o-dee-fc: 25442
+    brechin-city-fc: 3194
+    buckie-thistle-fc: 6400
+    deveronvale-fc: 4223
+    formartine-united-fc: 23613
+    forres-mechanics-fc: 3458
+    fraserburgh-fc: 23616
+    huntly-fc: 3490
+    inverurie-loco-works-fc: 10580
+    keith-fc: 16266
+    lossiemouth-fc: 23617
+    nairn-county-fc: 5751
+    rothes-fc: 23619
+    strathspey-thistle-fc: 23620
+    turriff-united-fc: 23621
+    wick-academy-fc: 23337  
+
+  # cymru_premier:
+  #   the-new-saints-fc: 10734
+  #   caernarfon-town: 22461
+  #   haverfordwest-county: 25232
+  #   connahs-quay-nomads-fc: 22499
+  #   penybont-fc: 62026
+  #   bala-town-fc: 27843
+  #   briton-ferry-llansawel-afc: 29221
+  #   cardiff-metropolitan-university-fc: 53152
+  #   aberystwyth-town-fc: 21541
+  #   barry-town-united-fc: 1115
+  #   flint-town-united: 31188
+  #   newtown-afc: 31130
+
+  # northern_ireland_premiership:
+  #   larne-fc: 3461
+  #   linfield-fc: 3471
+  #   cliftonville-fc: 1251
+  #   loughgall-fc: 21825
+  #   crusaders-fc: 21532
+  #   carrick-rangers: 8714
+  #   glenavon-fc: 3463
+  #   glentoran-fc: 9026
+  #   ballymena-united: 15244
+  #   dungannon-swifts: 21515
+  #   coleraine-fc: 3831
+  #   portadown-fc: 5594
+
+  # northern_ireland_championship:
+  #   newry-city-afc: 6068
+  #   ards-fc: 14958
+  #   limavady-united: 15250
+  #   bangor-fc: 21531
+  #   harland-amp-wolff-welders: 41137
+  #   ballyclare-comrades-fc: 9025
+  #   annagh-united-fc: 63172
+  #   dundela-fc: 63170
+  #   institute-fc: 12903
+  #   newington-fc: 24104
+  #   armagh-city-fc: 21930
+  #   ballinamallard-united: 21929

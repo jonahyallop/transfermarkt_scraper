@@ -1,0 +1,50 @@
+
+# Clubs and url numbers
+club_dict:
+  southern_league_premier_central:
+    NeedhamMarket: 2301
+    Telford: 2593
+    Leamington: 2607
+    RedditchUtd: 2257
+    Mickleover: 2525
+    StratfordTown: 2263
+    Stamford: 2570
+    HalesowenTown: 2298
+    StIvesTown: 2260
+    RoystonTown: 2258
+    CoalvilleTown: 2297
+    Stourbridge: 2303
+    Leiston: 2299
+    Barwell: 2294
+    Kettering: 528
+    Alvechurch: 2293
+    Sudbury: 2430
+    BromsgroveSporting: 2341
+    HitchinTown: 2253
+    Berkhamsted: 2340
+    LongEaton: 2874
+
+  southern_league_premier_south:
+    Totton: 2315
+    CheshamUtd: 2249
+    SalisburyFC: 2309
+    GosportBorough: 2252
+    BracknellTown: 2490
+    MerthyrTown: 694
+    WaltonHersham: 3113
+    Hungerford: 2622
+    Dorchester: 510
+    Hendon: 2306
+    WinchesterCity: 2333
+    BasingstokeTown: 444
+    PooleTown: 2308
+    TivertonTown: 2264
+    Sholing: 2657
+    Supermarine: 2311
+    Hanwell: 2408
+    PlymouthParkway: 2417
+    BeaconsfieldTown: 2273
+    Hayes: 522
+    HarrowBorough: 2305
+    DidcotTown: 441
+
